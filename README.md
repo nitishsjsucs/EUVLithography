@@ -95,26 +95,26 @@ This approach combines the accuracy of rigorous physics simulation with the spee
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    TRAINING PHASE (One-time)                 │
+│                    TRAINING PHASE (One-time)                │
 ├─────────────────────────────────────────────────────────────┤
 │  Mask Patterns                                              │
-│       ↓                                                       │
+│       ↓                                                     │
 │  Rigorous EM Simulation (2-6 hours each)                    │
-│       ↓                                                       │
+│       ↓                                                     │
 │  M3D Parameters (Ground Truth)                              │
-│       ↓                                                       │
-│  Train 6 CNN Models (50 epochs, 6-8 hours each)            │
+│       ↓                                                     │
+│  Train 6 CNN Models (50 epochs, 6-8 hours each)             │
 └─────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────┐
-│                  INFERENCE PHASE (Production)                │
+│                  INFERENCE PHASE (Production)               │
 ├─────────────────────────────────────────────────────────────┤
 │  New Mask Pattern                                           │
-│       ↓                                                       │
+│       ↓                                                     │
 │  CNN Prediction (150 milliseconds)                          │
-│       ↓                                                       │
+│       ↓                                                     │
 │  M3D Parameters → Intensity Distribution                    │
-│       ↓                                                       │
+│       ↓                                                     │
 │  Results in real-time!                                      │
 └─────────────────────────────────────────────────────────────┘
 ```
