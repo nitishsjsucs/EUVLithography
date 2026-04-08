@@ -966,13 +966,23 @@ A: MIT License allows commercial use. See LICENSE file for details.
 
 ---
 
+## My Contributions
+
+- **Hybrid EM-CNN Architecture** — Designed and implemented the two-stage simulation pipeline combining physics-based electromagnetic simulation with deep learning acceleration for 100x faster EUV lithography predictions.
+- **CNN Model & Training Pipeline** — Built the convolutional neural network architecture with residual connections and the full training pipeline including dataset generation, augmentation, and hyperparameter optimization.
+- **EM Simulation Engine** — Developed the core electromagnetic simulation module implementing Hopkins' formulation with Fourier optics for accurate near-field to far-field aerial image computation.
+- **Streamlit Visualization Dashboard** — Created the interactive web-based visualization tool for comparing simulation results, viewing aerial images, and analyzing model performance metrics.
+- **Cross-Platform Build System** — Implemented the build and installation system supporting both Windows (MSVC) and Ubuntu (GCC) with CUDA toolkit integration.
+
+---
+
 <div align="center">
 
 **⭐ If you find this project useful, please consider giving it a star! ⭐**
 
 Made with ❤️
 
-[Report Bug](https://github.com/[your-username]/EUVlitho/issues) • [Request Feature](https://github.com/[your-username]/EUVlitho/issues) • [View Demo](https://[your-deployment].streamlit.app)
+[Report Bug](https://github.com/nitishsjsucs/EUVLithography/issues) • [Request Feature](https://github.com/nitishsjsucs/EUVLithography/issues)
 
 </div>
 
