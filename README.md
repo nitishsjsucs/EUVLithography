@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Interactive-ff4b4b.svg)](https://streamlit.io/)
 
-**A hybrid deep learning approach that achieves 99.7% accuracy with 96,000× speedup for EUV lithography simulation**
+**A hybrid deep learning approach for EUV lithography simulation: RMSE 0.0087 against a rigorous EM reference, at 150 ms per pattern instead of 4 hours**
 
 ![EUV Lithography Banner](assets/banner.png)
 
@@ -142,7 +142,7 @@ This approach combines the accuracy of rigorous physics simulation with the spee
 
 ### Highlights
 
-- **99.7% Accuracy**: RMSE of 0.0087 compared to rigorous EM simulation
+- **RMSE 0.0087** against rigorous EM simulation. The 99.7% in the table is agreement on a regression task, not classification accuracy
 - **96,000× Faster**: 150 milliseconds vs 4 hours per pattern
 - **10× Better**: Than traditional fast methods (Fourier Transform: RMSE 0.0921)
 - **Production Ready**: Deployed as interactive Streamlit application
@@ -968,7 +968,7 @@ A: MIT License allows commercial use. See LICENSE file for details.
 
 ## My Contributions
 
-- **Hybrid EM-CNN Architecture** — Designed and implemented the two-stage simulation pipeline combining physics-based electromagnetic simulation with deep learning acceleration for 100x faster EUV lithography predictions.
+- **Hybrid EM-CNN Architecture** — Designed and implemented the two-stage simulation pipeline combining physics-based electromagnetic simulation with deep learning acceleration, replacing a 4-hour EM solve with 150 ms of inference.
 - **CNN Model & Training Pipeline** — Built the convolutional neural network architecture with residual connections and the full training pipeline including dataset generation, augmentation, and hyperparameter optimization.
 - **EM Simulation Engine** — Developed the core electromagnetic simulation module implementing Hopkins' formulation with Fourier optics for accurate near-field to far-field aerial image computation.
 - **Streamlit Visualization Dashboard** — Created the interactive web-based visualization tool for comparing simulation results, viewing aerial images, and analyzing model performance metrics.
