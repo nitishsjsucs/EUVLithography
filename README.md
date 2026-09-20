@@ -5,11 +5,10 @@ A copy of the **EUVlitho** research code by Hiroyoshi Tanabe and colleagues
 Streamlit viewer and a matplotlib analysis script added on top for exploring the
 simulator's precomputed output.
 
-**The electromagnetic simulator and the CNN in this repository are not my work.** They
-are the reference implementation for a series of published papers (listed under
-[Attribution](#attribution)). What I added is `streamlit_app.py`, `analyze_data.py`,
-`setup_windows.py` and the Windows launcher — a visualisation layer over the CSV files
-the upstream pipeline produces. The original upstream documentation is preserved verbatim
+The electromagnetic simulator and the CNN are the reference implementation for a series
+of published papers (listed under [Attribution](#attribution)). Layered on top are
+`streamlit_app.py`, `analyze_data.py`, `setup_windows.py` and the Windows launcher — a
+visualisation layer over the CSV files the upstream pipeline produces. The original upstream documentation is preserved verbatim
 at [`include/README.md`](include/README.md) and is the authoritative guide to the
 simulator itself.
 
